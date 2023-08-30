@@ -1,0 +1,19 @@
+{
+  "files": [
+    "src/index.ts"
+  ],
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["dom", "dom.iterable", "esnext", "es2020"],
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "types"
+  }
+}
