@@ -291,6 +291,7 @@
     </ul>
     <script src="{{ 'index.min.js' | asset_url }}" defer="defer"></script>
     <script>
+      const shopifyCart = new ShopifyCart();
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
